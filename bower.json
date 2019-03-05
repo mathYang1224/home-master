@@ -1,0 +1,35 @@
+{
+  "name": "micua",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "modernizr": "2.8.3",
+    "scrollmagic": "^2.0.5",
+    "animate.css": "^3.5.1",
+    "wow": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "scss/bootstrap.scss",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "less/font-awesome.less",
+        "scss/font-awesome.scss",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2",
+        "fonts/FontAwesome.otf"
+      ]
+    }
+  }
+}
